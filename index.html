@@ -3,9 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+        .project {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+    </style>
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <div class="container">
+            <img src="./profile.jpg" alt="Profile Photo">
+            <h1>Cale Rosenbalm</h1>
+            <p style="font-family: 'Courier New', Courier, monospace; color:darkblue">Bachelor's in Computer Science</p>
+            <p>
+                I am a student at Iowa State University studying for my 
+                bachelor's in Computer Science. Currently I am in my junior
+                year, and expecting to graduate in May 2025. I want to use
+                my degree to get into the game development field after I
+                graduate.
+            </p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="./project1.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>
+                    This was the first app I created. It is a very simple dice
+                    rolling app for the TTRPG Mouse Guard, made in Android Studio, 
+                    and is fully functional across all mobile devices. You can use 
+                    the slider to choose how many dice you wish to roll, and after 
+                    pushing the "roll" button at the bottom of the screen, a small 
+                    animation will play and the roll's results will be shown at the 
+                    top of the screen.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>
+                Contact Me
+            </h2>
+            <p>
+                You can email me at crosenbalm02@gmail.com
+            </p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Cale Rosenbalm</p>
+    </footer>
 </body>
 </html>
